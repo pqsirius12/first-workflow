@@ -1,0 +1,12 @@
+name: Hello World Action  # Name of your workflow (shows in GitHub UI)
+
+on: [push]  # Triggers when you push code
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # Uses GitHub's free Linux runner (kitchen station)
+    steps:
+      - name: 23f3001803@ds.study.iitm.ac.in  # Your required step name
+        run: echo "Hello, world from Qurrain's action!"  # Simple command
+      - name: Another step
+        run: echo "Action completed successfully!"

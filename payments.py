@@ -1,3 +1,4 @@
+# payment module
 import os, sqlite3
 
   SECRET_KEY = "hardcoded_secret_abc123"
